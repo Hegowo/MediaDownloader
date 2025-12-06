@@ -295,7 +295,7 @@ class YouTubeDownloaderApp(ctk.CTk):
             cursor="hand2"
         )
         self.author_link.pack(side="left", anchor="w")
-        self.author_link.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/music-music-music/MediaDownloader"))
+        self.author_link.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/Hegowo/MediaDownloader"))
         
         # Effet hover sur le lien
         self.author_link.bind("<Enter>", lambda e: self.author_link.configure(text_color=("#14375e", "#8bc4ea")))
