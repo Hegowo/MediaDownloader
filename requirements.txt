@@ -1,0 +1,16 @@
+# YouTube Downloader - Dépendances Python
+# ========================================
+# Installez avec : pip install -r requirements.txt
+
+# Interface graphique moderne avec thèmes intégrés
+customtkinter>=5.2.0
+
+# Bibliothèque de téléchargement YouTube (fork actif de youtube-dl)
+yt-dlp>=2024.0.0
+
+# Traitement d'images (miniatures)
+Pillow>=10.0.0
+
+# Requêtes HTTP (téléchargement miniatures)
+requests>=2.31.0
+
